@@ -1,11 +1,13 @@
 <?php
-include 'calculator_functions.php';
+// include 'calculator_functions.php';
+require_once 'calculator_functions.php';
 
 $arg1 = 0;
 $arg2 = 0;
 $result = "";
 
-if (!empty($_GET)) {
+if (!empty($_GET)) 
+{
     $arg1 = (int)$_GET['arg1'];
     $arg2 = (int)$_GET['arg2'];
     $operation = $_GET['operation'];

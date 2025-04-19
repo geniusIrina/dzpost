@@ -1,5 +1,5 @@
 <?php
-$hello = "Добро пожаловать в галерею";
+$hello = "Добро пожаловать!";
 ?>
 <!doctype html>
 <html lang="en">
